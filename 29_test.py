@@ -63,4 +63,5 @@ if __name__ == "__main__":
     category = text_classification(comment)
     
     print("입력한 문장의 카테고리는 {}입니다.".format(category))
-    print("\n 여기까지가 이전에 수행한 모델의 결과입니다.")
+    print("\n여기까지가 이전에 수행한 모델의 결과입니다.\n")
+    print("27~29까지가 checkpoint를 사용한 모델 결과 확인입니다.")
